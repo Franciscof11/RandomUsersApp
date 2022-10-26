@@ -19,4 +19,6 @@ class _HomePageState extends State<HomePage> {
       ),
     );
   }
+
+  Future<List<User>> getUser() async {}
 }
