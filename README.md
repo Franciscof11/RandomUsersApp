@@ -1,6 +1,6 @@
 <h2 align="center">Random Users App👨🏻‍💻</h2>
 <p align="center">
-    <img src="https://i.imgur.com/1452y5o.png" width="300" height="300" alt="App Banner" />
+    <img src="https://i.imgur.com/1452y5o.png" width="280" height="300" alt="App Banner" />
 </p>
 
 
