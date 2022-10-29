@@ -1,7 +1,9 @@
 <h2 align="center">Random Users App👨🏻‍💻</h2>
 <p align="center">
-    <img src="https://i.imgur.com/ffIO15P.jpg" width="280" height="240" alt="MyTask App Banner" />
+    <img src="https://i.imgur.com/1452y5o.png" width="300" height="300" alt="MyTask App Banner" />
 </p>
+
+
 
    <h2>Topics 📋</h2>
 
@@ -16,9 +18,8 @@
 
    <h2>About 📖</h2>
    
-   <p>   
-      A simple ToDo app made with Flutter.<br>
-      With this app you can make your ToDos and organize them. You can add them, delete them, and view them so that you see the ones that are pending first, and below the completed ones. It is a simple application, but it can be very useful when it comes to your organization. 😃
+   <p>
+      App that shows a random list of users, consuming an open-source API (https://randomuser.me/). The list developed with infinite scroll, displays the user's image, name and email, and brings 20 users at a time. It has a search filter, which makes it possible to search for users of each genre. When clicking on a specific user, the same user is shown on the screen with more information such as location and phone number.
    </p>
 
 ---
@@ -35,8 +36,8 @@
  <h2>
    Learnings 🤯
    </h2>
-
-   This application was very simple and so was the development, but it also, due to the layout, forced me to consult documentation, articles and forums (StackOverFlow, GitHub Issues and others) several times, which made me learn even more 🤯. Foturnately, I managed to make the application more beautiful, and I intend  to make more updates in future.
+The development of this application made me study more deeply about api requests in flutter and how to implement Material Design in the project.
+It also forced me to study more about other state managers like MobX.
 
 ---
 
@@ -46,6 +47,9 @@
    
   * Flutter
   * Dart
+  * MobX
+  * Rest API (https://randomuser.me/)
+  * Material Design
   
 ---
 
@@ -53,13 +57,13 @@
 
    ```   
    - Clone this repository:
-   $ git clone https://github.com/Franciscof11/ToDoApp--Flutter ToDoApp
+   $ git clone https://github.com/Franciscof11/RandomUsersApp--Flutter RandomUsersApp
 
    - Enter in directory:
-   $ cd ToDoApp
+   $ cd RandomUsersApp
 
    - For install dependencies:
-   $ flutter packages get
+   $ flutter pub get
    
    - Connect your emulator or physical device
 
