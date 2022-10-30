@@ -35,7 +35,7 @@
    Learnings 🤯
    </h2>
 The development of this application made me study more deeply about api requests in flutter and how to implement Material Design in the project.
-It also forced me to study more about other state managers like MobX. I had to learn how to Save API data in local database serving as cache, and it helped a lot in development. I learned how to handle connection errors when querying the api, such as the device's internet falling and etc. 
+It also forced me to study more about other state managers like MobX. I had to learn how to Save API data in local database serving as cache, and it helped a lot in development. I learned how to handle connection errors when querying the api, such as the device's internet falling and etc. This project also forced me to study more in depth about unit and widget tests using Mocktail .
 
 ---
 
@@ -46,6 +46,10 @@ It also forced me to study more about other state managers like MobX. I had to l
   * Flutter
   * Dart
   * MobX
+  * Connectivity_Plus
+  * Hive
+  * Mocktail
+  * Get It
   * Rest API (https://randomuser.me/)
   * Material Design
   
