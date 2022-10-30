@@ -1,4 +1,5 @@
 import 'dart:io';
+
 import 'package:flutter/material.dart';
 import 'package:get_it/get_it.dart';
 import 'package:hive/hive.dart';
@@ -9,7 +10,7 @@ import 'package:usuarios/users/user_repository.dart';
 import 'package:usuarios/users/users_api.dart';
 import 'package:usuarios/users/users_store.dart';
 
-import 'home/home_page.dart';
+import '../home/home_page.dart';
 
 GetIt getIt = GetIt.I;
 
@@ -33,10 +34,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Flutter Demo',
+      title: 'App',
       theme: ThemeData(
         useMaterial3: true,
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.grey,
       ),
       home: const HomePage(),
     );

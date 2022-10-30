@@ -1,5 +1,5 @@
-import 'package:connectivity_plus/connectivity_plus.dart';
-import 'package:usuarios/users/user_model.dart';
+// ignore_for_file: avoid_print
+
 import 'package:usuarios/users/users_api.dart';
 import 'package:usuarios/users/users_database.dart';
 

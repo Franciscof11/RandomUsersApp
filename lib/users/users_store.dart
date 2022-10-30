@@ -1,8 +1,9 @@
+// ignore_for_file: library_private_types_in_public_api
+
 import 'package:connectivity_plus/connectivity_plus.dart';
 import 'package:hive/hive.dart';
 import 'package:mobx/mobx.dart';
 import 'package:usuarios/users/user_repository.dart';
-import 'package:usuarios/users/users_api.dart';
 import 'package:usuarios/users/users_database.dart';
 
 import '../connectivity/connectivity_store.dart';
@@ -45,7 +46,6 @@ abstract class _UsersStore with Store {
     List usersList = await UsersDbList().getUsers();
     users.addAll(usersList);
   }
-
 
   @action
   noFilter() async {

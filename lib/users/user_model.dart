@@ -1,3 +1,5 @@
+// ignore_for_file: unnecessary_new, prefer_collection_literals, unnecessary_this
+
 class UserModel {
   String? gender;
   Name? name;
@@ -11,7 +13,7 @@ class UserModel {
     name = json['name'] != null ? new Name.fromJson(json['name']) : null;
     email = json['email'];
     picture =
-    json['picture'] != null ? new Picture.fromJson(json['picture']) : null;
+        json['picture'] != null ? new Picture.fromJson(json['picture']) : null;
   }
 
   UserModel.fromJsonOf(Map<String, dynamic> json) {
@@ -20,7 +22,6 @@ class UserModel {
     email = json['email'];
     picture = null;
   }
-
 
   Map<String, dynamic> toJson() {
     final Map<String, dynamic> data = new Map<String, dynamic>();
