@@ -17,7 +17,7 @@
    <h2>About 📖</h2>
    
    <p>
-      App that shows a random list of users, consuming an open-source API (https://randomuser.me/). The list developed with infinite scroll, displays the user's image, first name and email. It has a search filter, which makes it possible to search for users of each genre. When clicking on a specific user, the same user is shown on the screen with more information such as location and phone number.
+      App that shows a random list of users, consuming an open-source API (https://randomuser.me/). The list developed with infinite scroll, displays the user's image, first name and email. It has a search filter, which makes it possible to search for users of each genre. When clicking on a specific user, the same user is shown on the screen with more information such as gender and full name.
    </p>
 
 ---
