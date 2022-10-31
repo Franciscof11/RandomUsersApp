@@ -130,7 +130,7 @@ class _HomePageState extends State<HomePage> {
               iconColor: Colors.black,
               tileColor: Colors.white,
               contentPadding: EdgeInsets.only(left: 20, right: 20),
-              splashColor: Colors.deepPurple[400],
+              focusColor: Colors.deepPurple[400],
               horizontalTitleGap: 15,
               shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.all(Radius.circular(20))),
@@ -151,6 +151,6 @@ class _HomePageState extends State<HomePage> {
 
   SnackBar snackBarError = const SnackBar(
     backgroundColor: Colors.redAccent,
-    content: Text('Você está sem internet!'),
+    content: Text('Lost internet connection!'),
   );
 }

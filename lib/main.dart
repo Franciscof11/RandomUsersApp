@@ -37,7 +37,7 @@ class MyApp extends StatelessWidget {
       title: 'App',
       theme: ThemeData(
         useMaterial3: true,
-        primarySwatch: Colors.grey,
+        primarySwatch: Colors.purple,
       ),
       home: const HomePage(),
     );

@@ -1,4 +1,4 @@
-// ignore_for_file: no_leading_underscores_for_local_identifiers
+// ignore_for_file: no_leading_underscores_for_local_identifiers, unnecessary_brace_in_string_interps
 
 import 'dart:convert';
 
@@ -13,8 +13,8 @@ class UsersAPIList {
   Future<List> getUsers() async {
     var usersBox = await Hive.openBox('users');
     List users = [];
-    int _page = 1;
-    int _results = 20;
+    int _page = 3; /*Page Number*/
+    int _results = 20; /*Number of searched users*/
     var url = Uri.parse(
         'https://randomuser.me/api/?format=json&page=${_page}&results=${_results}&inc=gender,name,email,picture&nat=br');
     var response = await client.get(url);
@@ -26,7 +26,7 @@ class UsersAPIList {
         usersBox.add(results[i]);
       }
     } else {
-      throw Exception('erro de internet');
+      throw Exception('Internet error');
     }
     _page++;
     return users;
